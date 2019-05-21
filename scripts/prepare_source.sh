@@ -12,5 +12,4 @@ cd kernel/kernel-4.9
 zcat /proc/config.gz > .config
 
 apt-get install qt5-default -y
-cd /usr/src/kernel/kernel-4.9
 make xconfig
