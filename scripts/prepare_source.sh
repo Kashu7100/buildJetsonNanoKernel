@@ -10,3 +10,7 @@ rm -r public_release
 cd kernel/kernel-4.9
 #get the new system configuration
 zcat /proc/config.gz > .config
+
+apt-get install qt5-default -y
+cd /usr/src/kernel/kernel-4.9
+make xconfig
